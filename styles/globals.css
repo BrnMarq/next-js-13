@@ -15,7 +15,13 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+body {
+  padding: 100px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +29,13 @@ a {
     color: white;
     background: black;
   }
+} */
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: white;
+  background: black;
 }
